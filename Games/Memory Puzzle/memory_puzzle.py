@@ -63,17 +63,17 @@ def main():
                 mouseClicked = True
 
         boxx, boxy = getBoxAtPixel(mouseX, mouxeY)
-        if boxx != None and boxy != None:
+        if boxx is not None and boxy is not None:
             if not revealedBoxes[boxx][boxy]:
                 drawHighLightBox(boxx, boxy)
             if not revealedBoxes[boxx][boxy] and mouseClicked:
                 revealBoxesAnimation(mainboard, [(boxx, boxy)])
                 revealedBoxes[boxx][boxy] = True
 
-                if firstSelection == None:
+                if firstSelection is None:
                     firstSelection = (boxx, boxy)
                 else:
-                    icon1shape, icon1color = getShapeAndColor(mainboard,boxx, boxy)
+                    icon1shape, icon1color = getShapeAndColor(mainboard, boxx, boxy)
                     icon2shape, icon2color = getShapeAndColor(mainboard, firstSelection[0], firstSelection[1])
 
                     if icon1shape != icon2shape or icon1color != icon2color:
@@ -91,7 +91,7 @@ def main():
                         pygame.display.update()
                         pygame.time.wait(1000)
                         startGameAnimation(mainboard)
-                        firstSelection = None
+                    firstSelection = None
 
         pygame.display.update()
         FPSCLOCK.tick(FPS)
