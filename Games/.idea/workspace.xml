@@ -16,14 +16,15 @@
     <SUITE FILE_PATH="coverage/Games$MemoryPuzzle.coverage" NAME="MemoryPuzzle Coverage Results" MODIFIED="1531415098201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Memory Puzzle" />
     <SUITE FILE_PATH="coverage/Games$SilderPuzzle.coverage" NAME="SilderPuzzle Coverage Results" MODIFIED="1531760157774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Slide Puzzle" />
     <SUITE FILE_PATH="coverage/Games$Worm.coverage" NAME="Worm Coverage Results" MODIFIED="1531845171268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wormy" />
+    <SUITE FILE_PATH="coverage/Games$Tetromino.coverage" NAME="Tetromino Coverage Results" MODIFIED="1531934294902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tetromino" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="memory_puzzle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Puzzle/memory_puzzle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="30" column="82" selection-start-line="30" selection-start-column="82" selection-end-line="30" selection-end-column="82" />
+            <state relative-caret-position="736">
+              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -34,19 +35,31 @@
       <file leaf-file-name="slider_puzzle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Slide Puzzle/slider_puzzle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="672">
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wormy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wormy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wormy/wormy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="1344">
+              <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terromino.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tetromino/terromino.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="283" lean-forward="true" selection-start-line="283" selection-end-line="283" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +68,8 @@
       <file leaf-file-name="simulate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simulate/simulate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3120">
-              <caret line="197" column="60" lean-forward="true" selection-start-line="197" selection-start-column="60" selection-end-line="197" selection-end-column="60" />
+            <state relative-caret-position="3008">
+              <caret line="197" column="60" selection-start-line="197" selection-start-column="60" selection-end-line="197" selection-end-column="60" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -67,8 +80,8 @@
       <file leaf-file-name="GameColor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameColor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="96">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -87,8 +100,9 @@
       <find>w</find>
       <find>lastMove=</find>
       <find>collidepoint</find>
-      <find>BASICFONT</find>
       <find>FPSCLOCK</find>
+      <find>BASICFONT</find>
+      <find>drawPressKeyMsg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,6 +121,7 @@
         <option value="$PROJECT_DIR$/GameColor.py" />
         <option value="$PROJECT_DIR$/Simulate/simulate.py" />
         <option value="$PROJECT_DIR$/Wormy/wormy.py" />
+        <option value="$PROJECT_DIR$/Tetromino/terromino.py" />
       </list>
     </option>
   </component>
@@ -143,7 +158,7 @@
             <path>
               <item name="Games" type="b2602c69:ProjectViewProjectNode" />
               <item name="Games" type="462c0819:PsiDirectoryNode" />
-              <item name="Wormy" type="462c0819:PsiDirectoryNode" />
+              <item name="Tetromino" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Project/Python/FunnyGames-Python/Games/Memory Puzzle/memory_puzzle.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Wormy/wormy.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tetromino/terromino.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -169,6 +184,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\Python\FunnyGames-Python\Games\Tetromino" />
       <recent name="C:\Project\Python\FunnyGames-Python\Games\Memory Puzzle" />
       <recent name="C:\Project\Python\FunnyGames-Python\Games" />
     </key>
@@ -185,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Worm">
+  <component name="RunManager" selected="Python.Tetromino">
     <configuration name="MemoryPuzzle" type="PythonConfigurationType" factoryName="Python">
       <module name="Games" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,6 +259,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Tetromino" type="PythonConfigurationType" factoryName="Python">
+      <module name="Games" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tetromino" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tetromino/terromino.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Worm" type="PythonConfigurationType" factoryName="Python">
       <module name="Games" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,6 +302,7 @@
       <item itemvalue="Python.SilderPuzzle" />
       <item itemvalue="Python.Simulate" />
       <item itemvalue="Python.Worm" />
+      <item itemvalue="Python.Tetromino" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -300,9 +336,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292517" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3292517" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32627526" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27596155" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16170691" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32627526" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27526468" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16339135" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3295901" />
@@ -352,6 +388,50 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Memory Puzzle/memory_puzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="82" selection-start-line="30" selection-start-column="82" selection-end-line="30" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slide Puzzle/slider_puzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulate/simulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3152">
+          <caret line="197" column="60" lean-forward="true" selection-start-line="197" selection-start-column="60" selection-end-line="197" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameColor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wormy/wormy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Memory Puzzle/memory_puzzle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -592,20 +672,20 @@
     <entry file="file://$PROJECT_DIR$/document" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Memory Puzzle/test.txt" />
-    <entry file="file://$PROJECT_DIR$/Simulate/simulate.py">
+    <entry file="file://$PROJECT_DIR$/Memory Puzzle/memory_puzzle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="197" column="60" lean-forward="true" selection-start-line="197" selection-start-column="60" selection-end-line="197" selection-end-column="60" />
+        <state relative-caret-position="736">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Puzzle/memory_puzzle.py">
+    <entry file="file://$PROJECT_DIR$/Wormy/wormy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="30" column="82" selection-start-line="30" selection-start-column="82" selection-end-line="30" selection-end-column="82" />
+        <state relative-caret-position="1344">
+          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -614,24 +694,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Slide Puzzle/slider_puzzle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        <state relative-caret-position="672">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulate/simulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3008">
+          <caret line="197" column="60" selection-start-line="197" selection-start-column="60" selection-end-line="197" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameColor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wormy/wormy.py">
+    <entry file="file://$PROJECT_DIR$/Tetromino/terromino.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="640">
+          <caret line="283" lean-forward="true" selection-start-line="283" selection-end-line="283" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
